@@ -1,2 +1,2 @@
 # Instagram-GrameKillo-Laravel-vuejs
-Instagrame clone build with laravel &amp; vue.js
+Instagram clone build with laravel &amp; vue.js
