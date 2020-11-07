@@ -1,0 +1,28 @@
+#post {
+    // publisher info
+    .profile-info {
+        border-bottom: 1px solid #2222;
+        padding: 5px 0 12px;
+
+        img {
+            width: 13%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        span.publisher {
+            a {
+                color: #222;
+                text-decoration: none;
+            }
+        }
+    }
+
+    // content caption
+    .caption {
+        padding-top: 20px;
+    }
+}

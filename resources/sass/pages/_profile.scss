@@ -1,0 +1,116 @@
+#profile {
+    // profile-header
+    #profile-header {
+        align-items: center;
+        // image-profile
+        .image-profile {
+            text-align: center;
+            img {
+                width: 50%;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+
+        //information-profile
+        .information-profile {
+            // profile-name
+            .profile-name {
+                align-items: center;
+                // name
+                h2 {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    margin: 0;
+                    padding-right: 20px;
+                }
+
+                // button follow
+                button {
+                    padding: 3px 9px;
+                    font-size: 13px;
+                }
+            }
+
+            // profile followrs & following
+            .profile-follow-ers-ing {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    margin: 10px 0;
+                    font-size: 15px;
+
+                    li {
+                        margin-right: 20px;
+
+                        a {
+                            font-weight: 600;
+                            color: #222;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            // full name
+
+            // profile description
+            .profile-description {
+                p {
+                    margin: 0;
+                }
+            }
+
+            // profile link
+            .profile-link {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    // profile-body
+    #profile-body {
+        // actions
+        .actions {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                
+                li {
+                    margin-right: 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        // posts
+        .posts {
+            .post {
+                overflow: hidden;
+                padding: 15px;
+
+                .post-image {
+                    img {
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+
+}

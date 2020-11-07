@@ -1,0 +1,39 @@
+.posts {
+    .post-each {
+        background: #fff;
+        margin-bottom: 50px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        .publisher {
+            padding: 15px 5px;
+            img {
+                width: 9%;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            span.publisher {
+                a {
+                    color: #222;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .reaction {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            padding: 0 2px;
+            justify-content: flex-end;
+        }
+
+        .caption {
+            padding: 20px;
+        }
+    }
+}
